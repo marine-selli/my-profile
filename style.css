@@ -1,0 +1,127 @@
+body {
+background-color: #F7F9FC;
+color: #696969;
+font-family: 'Lora', serif;
+font-size: 17px;
+font-weight: 400;
+background-image: url(images/fond2.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:left top;
+background-size: cover;
+
+}
+
+h1, h2{
+font-family: 'Roboto', sans-serif;
+color: #4ad2ff;
+}
+
+h1{
+font-size: 40px;
+font-weight: 700;
+}
+
+h2{
+font-size: 25px;
+font-weight: 700;
+}
+
+.image-circle{ 
+border-radius: 50%;
+box-shadow: 3px 3px 4px grey;
+width: 150px;
+height: 150px;
+}
+
+.container{
+margin:40px auto;
+width: 1500px;
+
+}
+
+@media (max-width: 500px) {
+.container{
+width: 360px;
+}
+}
+
+@media (max-width: 760px) {
+.container{
+width: 580px;
+}
+}
+
+.box-blanche{
+background: white;
+box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+padding: 30px;
+border-radius: 4px;
+margin: 20px 300px;
+text-align: center;
+}
+
+#presentation{
+margin: 40px 300px 20px 300px;
+}
+
+#presentation p{
+margin-bottom: 50px;
+}
+
+.btn-blue{
+background-color: #40d1ff;
+color: white;
+padding: 10px 15px;
+border-radius: 5px;
+transition: color 0.3s ease;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+.btn-blue:hover{
+background-color: #91efff;
+color:white;
+text-decoration: underline;
+}
+
+.list-horizontal{
+list-style: none;
+padding-left: 0px;
+font-size: 50px;
+color: rgb(230, 230, 230);
+}
+
+.list-horizontal li{
+display: inline;
+padding: 10px;
+}
+
+#lien{
+margin: 20px 300px 40px 300px;
+padding: 10px;
+}
+
+#image-art{
+width: 150px;
+height: 200px;
+}
+
+.image-rectangle{
+width: 250px;
+height: 150px;
+}
+
+.list-horizontal i{
+color: #3fc5f0;
+font-size: 50px;
+}
+
+.list-horizontal i:hover{
+color: black;
+}
+
+
+
+
